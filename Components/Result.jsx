@@ -38,7 +38,7 @@ const Result = ({ contadoCuotas, cuotasFijasInt }) => {
                     className={'mt-4'}
                 />
             ) : (
-                <div className='p-8 flex flex-col items-start rounded-lg  shadow-2xl hover:bg-cyan-900 duration-300 bg-gradient-to-t border-2 '>
+                <div className='p-8 flex flex-col items-start rounded-lg  shadow-2xl  duration-300 bg-gradient-to-t border-2 '>
                     <div className='mb-4'>
                         <h1 className='text-5xl'>Resultado</h1>
                     </div>

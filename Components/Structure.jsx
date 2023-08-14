@@ -3,7 +3,8 @@ import Link from 'next/link'
 import Inputs from './Inputs'
 import Donations from './Donations'
 import MainTitle from './MainTitle'
-import HowWeDoIt from '@/app/how/page'
+import HowWeDoIt from '@/app/funcionamiento/page'
+import Footer from './Footer'
 
 const Structure = () => {
 
@@ -14,9 +15,8 @@ const Structure = () => {
                 <Donations />
             </div>
             <Inputs />
-            <Link href={'/how'}>
-                <p>How we do it</p>
-            </Link>
+            
+            <Footer />
         </>
     )
 }
