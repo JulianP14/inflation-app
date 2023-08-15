@@ -5,7 +5,7 @@ const InputInflation = ({ onChange }) => {
         <div className='flex flex-col my-2'>
             <label className='flex flex-col my-2'>
                 <div className='flex flex-row'>
-                    <span className=''>Inflacion estimada mensual</span>
+                    <span className='mr-2'>Inflacion estimada mensual</span>
                     <span>💸</span>
                 </div>
                 <input
