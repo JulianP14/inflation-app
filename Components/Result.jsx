@@ -46,8 +46,8 @@ const Result = ({ contadoCuotas, cuotasFijasInt }) => {
                         {determineOption()}
                     </div>
                     <div className='flex flex-col'>
-                        <p className='py-2'>{`Dato contado: $ ${cC}`}</p>
-                        <p className='py-2'>{`Dato cuotas: $ ${cFi}`}</p>
+                        <p className='py-2'>{`Dato contado: $${cC}`}</p>
+                        <p className='py-2'>{`Dato cuotas: $${cFi}`}</p>
                     </div>
                     <button
                         onClick={reset}

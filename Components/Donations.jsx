@@ -5,7 +5,7 @@ const Donations = () => {
     return (
         <div className='flex flex-col justify-around'>
             <div className='flex flex-row justify-center'>
-                <Link href={'#'} className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center w-56 bg-cyan-800 hover:bg-cyan-700 duration-500 '>
+                <Link href={'#'} className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center w-56 bg-[#051429] hover:bg-cyan-700 duration-300 '>
                     <button className='mr-2 text-sm'>
                         Invitar un cafecito
                     </button>
@@ -18,7 +18,7 @@ const Donations = () => {
                 </Link>
             </div>
             <div className='flex flex-row justify-center'>
-                <Link href={'https://link.mercadopago.com.ar/julianparera'} target='_blank' className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center bg-cyan-800 hover:bg-cyan-700 duration-500  w-56 '>
+                <Link href={'https://link.mercadopago.com.ar/julianparera'} target='_blank' className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center bg-[#051429] hover:bg-cyan-700 duration-300 w-56 '>
                     <button className='mr-2 text-sm'>
                         Donar por MercadoPago
                     </button>

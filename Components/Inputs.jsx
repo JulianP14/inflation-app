@@ -110,7 +110,7 @@ const Inputs = () => {
     }
 
     return (
-        <div className="h-full w-full flex flex-col items-center">
+        <div className="h-full w-full flex flex-col items-center ">
             {isReady ?
                 (<div className=" h-full w-full flex flex-col items-center my-8">
                     <Result
@@ -119,7 +119,7 @@ const Inputs = () => {
                     />
                 </div>)
                 :
-                (<div className="mt-4 w-full px-10 md:px-20 max-w-xl">
+                (<div className="mt-6 w-full px-10 md:px-20 max-w-xl">
                     <form className='grid grid-cols-1 my-5' autoComplete='off'>
                         <InputAmountNow
                             onChange={handleCheckInputContado}

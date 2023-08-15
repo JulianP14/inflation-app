@@ -13,8 +13,8 @@ const MainTitle = () => {
                 />
             </div>
             <div className=''>
-                <h1 className='font-bold text-3xl py-4 px-2 text-center'>Calculadora de Inflación</h1>
-                <h2 className='text-2xl mb-4 text-center'>Te ayudamos a decidir si comprar o no en cuotas</h2>
+                <h1 className='font-bold text-3xl py-4 px-2 text-center'>Calculadora de Inflación.</h1>
+                <h2 className='text-2xl mb-4 text-center'>Te ayudamos a decidir si comprar, o no, en cuotas.</h2>
             </div>
         </div>
     )
