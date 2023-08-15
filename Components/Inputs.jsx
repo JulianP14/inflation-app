@@ -28,7 +28,7 @@ const Inputs = () => {
     const [cuotasFijasInt, setCuotasFijasInt] = useState('');
 
     const handleCheckInputContado = (e) => {
-        const valor = Number(e.target.value)
+        const valor = Number(e.target.value);
         if (valor < 0 || typeof (valor) !== 'number') {
             MySwal.fire({
                 title: <p>Error:</p>,
@@ -48,14 +48,14 @@ const Inputs = () => {
                 text: "El valor ingresado no es válido",
                 icon: 'error',
             });
-            setMontoCuotas('')
+            setMontoCuotas('');
             
         } else {
             setMontoCuotas(valor);
         }
     };
     const handlePorcentaje = (e) => {
-        const valor = Number(e.target.value)
+        const valor = Number(e.target.value);
         if (valor < 0 || typeof (valor) !== 'number') {
             MySwal.fire({
                 title: <p>Error:</p>,
