@@ -13,7 +13,7 @@ const InputAmountNow = ({ onChange }) => {
             </label>
                 <input
                     type='number'
-                    className=''
+                    className='border-b-2 border-white rounded-lg p-1 px-2 bg-transparent hover:border-b-cyan-400 duration-300 outline-none text-white'
                     onBlur={onChange}
 
                 />
