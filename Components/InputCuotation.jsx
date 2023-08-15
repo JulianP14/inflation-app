@@ -1,4 +1,3 @@
-import React from 'react'
 
 const InputCuotation = ({ cuotas, onChange }) => {
     const options = [
@@ -21,7 +20,7 @@ const InputCuotation = ({ cuotas, onChange }) => {
                 ))}
             </select>
         </div>
-    );
-}
+    )
+};
 
-export default InputCuotation
+export default InputCuotation;

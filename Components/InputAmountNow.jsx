@@ -1,11 +1,13 @@
-import React from 'react'
 
 const InputAmountNow = ({ onChange }) => {
+    
     return (
         <div className='flex flex-col my-2'>
             <label className='flex flex-col my-2'>
                 <div className='flex flex-row'>
-                    <span className='mr-2'>Ingresa el precio de contado</span>
+                    <span className='mr-2'>
+                        Ingresa el precio de contado
+                    </span>
                     <span>💰</span>
                 </div>
                 <input
@@ -17,6 +19,6 @@ const InputAmountNow = ({ onChange }) => {
             </label>
         </div>
     )
-}
+};
 
-export default InputAmountNow
+export default InputAmountNow;

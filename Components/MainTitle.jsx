@@ -18,6 +18,6 @@ const MainTitle = () => {
             </div>
         </div>
     )
-}
+};
 
-export default MainTitle
+export default MainTitle;

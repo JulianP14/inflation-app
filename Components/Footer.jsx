@@ -4,8 +4,6 @@ import Link from "next/link"
 
 const Footer = () => {
 
-
-
     return (
         <div className=' w-full mt-2 px-4 flex flex-col items-center justify-center rounded-t-3xl bg-[#051429]'>
             <Link
@@ -18,6 +16,6 @@ const Footer = () => {
             </Link>
         </div>
     )
-}
+};
 
-export default Footer
+export default Footer;

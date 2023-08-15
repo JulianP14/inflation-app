@@ -7,6 +7,6 @@ const Home = () => {
             <Structure />
         </section>
     )
-}
+};
 
-export default Home
+export default Home;

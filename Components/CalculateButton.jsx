@@ -1,5 +1,3 @@
-import Link from "next/link"
-
 const CalculateButton = ({ onClick }) => {
 
     return (
@@ -12,6 +10,6 @@ const CalculateButton = ({ onClick }) => {
             </button>
         </div>
     )
-}
+};
 
-export default CalculateButton
+export default CalculateButton;

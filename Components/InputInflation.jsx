@@ -1,11 +1,12 @@
-import React from 'react'
 
 const InputInflation = ({ onChange }) => {
     return (
         <div className='flex flex-col my-2'>
             <label className='flex flex-col my-2'>
                 <div className='flex flex-row'>
-                    <span className='mr-2'>Inflacion estimada mensual</span>
+                    <span className='mr-2'>
+                        Inflacion estimada mensual
+                    </span>
                     <span>💸</span>
                 </div>
                 <input
@@ -16,6 +17,6 @@ const InputInflation = ({ onChange }) => {
             </label>
         </div>
     )
-}
+};
 
-export default InputInflation
+export default InputInflation;

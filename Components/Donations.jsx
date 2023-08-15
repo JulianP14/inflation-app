@@ -5,7 +5,10 @@ const Donations = () => {
     return (
         <div className='flex flex-col md:flex-row justify-around'>
             <div className='flex flex-row justify-center'>
-                <Link href={'#'} className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center w-56 bg-[#051429] hover:bg-cyan-700 duration-300 '>
+                <Link 
+                    href={'https://cafecito.app/julianparera'}
+                    className='border-2 p-1 px-2 my-2 rounded-lg flex flex-row justify-center w-56 bg-[#051429] hover:bg-cyan-700 duration-300'
+                >
                     <button className='mr-2 text-sm'>
                         Invitar un cafecito
                     </button>
@@ -32,6 +35,6 @@ const Donations = () => {
             </div>
         </div>
     )
-}
+};
 
-export default Donations
+export default Donations;

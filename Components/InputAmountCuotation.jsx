@@ -1,4 +1,3 @@
-import React from 'react'
 
 const InputAmountCuotation = ({ onChange }) => {
     return (
@@ -17,6 +16,6 @@ const InputAmountCuotation = ({ onChange }) => {
             </label>
         </div>
     )
-}
+};
 
-export default InputAmountCuotation
+export default InputAmountCuotation;

@@ -12,7 +12,6 @@ const Structure = () => {
                 <Donations />
             </div>
             <Inputs />
-            
             <Footer />
         </>
     )

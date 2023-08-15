@@ -9,7 +9,6 @@ import InputCuotation from "./InputCuotation";
 import InputInflation from "./InputInflation";
 import InputAmountCuotation from "./InputAmountCuotation";
 import InputAmountNow from "./InputAmountNow";
-
 import Result from './Result';
 
 const Inputs = () => {
@@ -142,6 +141,6 @@ const Inputs = () => {
             }
         </div>
     )
-}
+};
 
-export default Inputs
+export default Inputs;

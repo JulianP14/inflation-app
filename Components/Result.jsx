@@ -1,10 +1,11 @@
 'use client'
 import MoonLoader from 'react-spinners/PropagateLoader'
+
 import { useState } from 'react'
 
 const Result = ({ contadoCuotas, cuotasFijasInt }) => {
 
-    const [isLoading, setIsLoading] = useState(true)
+    const [isLoading, setIsLoading] = useState(true);
 
     let cC = Number(contadoCuotas.toFixed(2));
     let cFi = Number(cuotasFijasInt.toFixed(2));
@@ -59,6 +60,6 @@ const Result = ({ contadoCuotas, cuotasFijasInt }) => {
             )}
         </div>
     )
-}
+};
 
-export default Result
+export default Result;

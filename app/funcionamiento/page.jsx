@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const HowWeDoIt = () => {
 
-
     return (
         <div className="bg-[#0b1623] h-screen flex flex-col items-center justify-start text-white w-screen ">
             <div className="h-full my-6 flex flex-col justify-around items-center">
