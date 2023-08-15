@@ -7,7 +7,7 @@ const Footer = () => {
 
 
     return (
-        <div className=' w-full py-5 px-4 flex flex-col items-center justify-center rounded-t-3xl bg-[#051429]'>
+        <div className=' w-full mt-2 px-4 flex flex-col items-center justify-center rounded-t-3xl bg-[#051429]'>
             <Link
                 href={'/funcionamiento'}
                 className='my-5 flex flex-col justify-center'

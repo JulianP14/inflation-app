@@ -119,7 +119,7 @@ const Inputs = () => {
                     />
                 </div>)
                 :
-                (<div className="mt-6 w-full px-10 md:px-20 max-w-xl">
+                (<div className="w-full px-10 md:px-20 max-w-xl">
                     <form className='grid grid-cols-1 my-5' autoComplete='off'>
                         <InputAmountNow
                             onChange={handleCheckInputContado}

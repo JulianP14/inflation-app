@@ -1,16 +1,13 @@
-import Link from 'next/link'
-
-import Inputs from './Inputs'
-import Donations from './Donations'
-import MainTitle from './MainTitle'
-import HowWeDoIt from '@/app/funcionamiento/page'
-import Footer from './Footer'
+import Inputs from './Inputs';
+import Donations from './Donations';
+import MainTitle from './MainTitle';
+import Footer from './Footer';
 
 const Structure = () => {
 
     return (
         <>
-            <div className='px-5 pt-10 '>
+            <div className='flex flex-col px-4 pt-4'>
                 <MainTitle />
                 <Donations />
             </div>
@@ -19,6 +16,6 @@ const Structure = () => {
             <Footer />
         </>
     )
-}
+};
 
-export default Structure
+export default Structure;
