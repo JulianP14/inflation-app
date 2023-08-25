@@ -39,7 +39,7 @@ const Result = ({ contadoCuotas, cuotasFijasInt }) => {
                     className={'mt-4'}
                 />
             ) : (
-                <div className='p-8 flex flex-col items-start rounded-lg  shadow-2xl  duration-300 bg-gradient-to-t border-2 '>
+                <div className='p-8 flex flex-col items-start rounded-lg  shadow-2xl  duration-300 bg-gradient-to-t border-b-2 border-white w-[50rem] bg-[#cbd5e1] '>
                     <div className='mb-4'>
                         <h1 className='text-5xl'>Resultado</h1>
                     </div>
@@ -52,7 +52,7 @@ const Result = ({ contadoCuotas, cuotasFijasInt }) => {
                     </div>
                     <button
                         onClick={reset}
-                        className='border-2 rounded-lg px-4 py-1 bg-cyan-800 hover:bg-cyan-600 mt-6 text-lg hover:scale-105 duration-300'
+                        className='rounded-lg px-4 py-1 bg-cyan-800 hover:bg-cyan-600 mt-6 text-lg hover:scale-105 duration-300'
                     >
                         Volver
                     </button>
