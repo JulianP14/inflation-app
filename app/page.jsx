@@ -1,4 +1,4 @@
-import HomeSite from '@/components/HomeSite'
+import HomeSite from '@/Components/HomeSite'
 
 export default function Home() {
   return (
