@@ -111,7 +111,7 @@ const Inputs = () => {
     return (
         <div className="h-full w-full flex flex-col items-center ">
             {isReady ?
-                (<div className=" h-full w-full flex flex-col items-center my-8">
+                (<div className=" h-full w-full flex flex-col items-center">
                     <Result
                         contadoCuotas={contadoCuotas}
                         cuotasFijasInt={cuotasFijasInt}
