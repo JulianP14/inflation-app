@@ -9,7 +9,7 @@ const Structure = () => {
         <>
             <div className='flex flex-col px-4 pt-10'>
                 <MainTitle />
-                <Donations />
+                {/* <Donations /> */}
             </div>
             <Inputs />
             <Footer />
